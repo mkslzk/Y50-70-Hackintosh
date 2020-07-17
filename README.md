@@ -1,5 +1,6 @@
-## Y50-70-Hackintosh
-Resources for creating a Hackintosh Installation for Lenovo Y50-70 FHD Laptop
+# Y50-70-Hackintosh
+## Resources for creating a Hackintosh Installation for Lenovo Y50-70 FHD Laptop
+### README.md is under work
 
 
 Making Hackintosh possible on a Lenovo-Y50-70 Laptop!
