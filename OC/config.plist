@@ -278,6 +278,11 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>15</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -358,6 +363,22 @@
 				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AppleALC</string>
+				<key>BundlePath</key>
+				<string>AppleALC.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -904,7 +925,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 -wegnoegpu alcid=88</string>
+				<string>keepsyms=1 -wegnoegpu</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
