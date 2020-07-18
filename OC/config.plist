@@ -923,7 +923,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<integer>70</integer>
 				<key>boot-args</key>
 				<string>keepsyms=1 -wegnoegpu</string>
 			</dict>
@@ -1027,9 +1027,9 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOut</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>MinimumVolume</key>
@@ -1037,13 +1037,14 @@
 			<key>PlayChime</key>
 			<true/>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>50</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
 		<array>
 			<string>OpenCanopy.efi</string>
+			<string>AudioDxe.efi</string>
 			<string>AppleImageLoader.efi</string>
 			<string>DataHubDxe.efi</string>
 			<string>FSInject.efi</string>
